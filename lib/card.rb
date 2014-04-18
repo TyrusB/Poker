@@ -34,7 +34,7 @@ class Card
   end
 
   def to_s
-    VALUE_TO_STRING[@value] + @suit.to_s[0].upcase #SUIT_TO_STRING[@suit] unicode funky on windows
+    VALUE_TO_STRING[@value] + @suit.to_s[0].upcase 
   end
 
   def ==(other_card)
